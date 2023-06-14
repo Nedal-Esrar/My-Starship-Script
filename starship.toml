@@ -1,0 +1,95 @@
+[username]
+format = " [╭─$user]($style)@"
+style_user = "bold red"
+style_root = "bold red"
+show_always = true
+
+[hostname]
+format = "[$hostname]($style) in "
+style = "bold dimmed red"
+trim_at = "-"
+ssh_only = false
+disabled = false
+
+[directory]
+style = "purple"
+truncation_length = 0
+truncate_to_repo = true
+truncation_symbol = "repo: "
+
+[cmd_duration]
+min_time = 1
+format = "took [$duration]($style)"
+disabled = false
+
+[character]
+success_symbol = " [╰─>](bold red)"
+
+[aws]
+disabled = true
+
+[conda]
+disabled = true
+
+[dart]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[golang]
+disabled = true
+
+[java]
+disabled = true
+
+[julia]
+disabled = true
+
+[haskell]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[package]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[python]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = true
+
+[scala]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[swift]
+disabled = true
+
+[nodejs]
+disabled = true
